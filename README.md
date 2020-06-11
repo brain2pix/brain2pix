@@ -1,11 +1,12 @@
 # Brain2Pix: Supplementary materials
 Anonymous repository for the supplementary materials of the paper "Brain2Pix: Fully convolutional naturalistic video reconstruction  from brain activity".
 
-
-![result0](/additional_results/gif7_0.gif)
-
-
-![result0](/additional_results/gif7_1.gif)
+![recons_of_all_frames_as_video_a](/additional_results/recons_of_all_frames_as_video_a.gif)
 
 
-![result0](/additional_results/gif7_2.gif)
+![recons_of_all_frames_as_video_b](/additional_results/recons_of_all_frames_as_video_b.gif)
+
+
+![recons_of_all_frames_as_video_c](/additional_results/recons_of_all_frames_as_video_c.gif)
+
+The online version of this repository is avilable at https://github.com/brain2pix/brain2pix/

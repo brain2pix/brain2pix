@@ -4,7 +4,7 @@ This directory contains the source code of the brain2pix models with fixed and l
 
 Both folder contains the following files: 
 - util.py: Devices are defined here, which is needed to run the mxnet framework on GPU or CPU.
-- modules.py: This file contains all the functions used for loading and combining the data to make the input for the model such as get_signals_from_run(), get_RFs(), and get_inputsROI.  The file also contains the functions that were used to make the iterator for the training of synthetic data and real data (make_synthetic_iterator() and make_iterator() respectively).
+- modules.py: This file contains all the functions used for loading and combining the data to make the input for the model such as get_signals_from_run(), get_RFs(), and get_inputsROI.  The file also contains teh functions that were used to make the iterator for the training of synthetic data and real data (make_synthetic_iterator() and make_iterator() respectively).
 - discriminator.py: The discriminator which is used to discriminate between real and fake images. The loss used for this model is Binary Cross Entropy loss, which is also defined in this file.
 
 Files in "fixedRF/":
