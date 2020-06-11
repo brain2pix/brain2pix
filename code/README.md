@@ -26,7 +26,7 @@ Additional details of the baseline models can be found below:
 As mentioned in the paper, the first (simple) baseline reconstructed the stimuli by inverting a linear Gaussian encoding model1 with MAP estimation [36]. The second (more complex) baseline reconstructed the stimuli by maximizing the likelihood of a nonlinear-linear encoding model with a SqueezeNet component [18] as the nonlinear feature extractor (second max-pooling layer outputs of the SqueezeNet V2 architecture pretrained on ImageNet). All densities were assumed to be Gaussian except for the prior which was203an empirical natural image prior constructed from the training set [30, 31].
 
 Specifically for the complex baseline:
-For each frame, the SqueezeNet model was used to extract 128 x 14 x 14 dimensional stimulus features. 
+For each frame, the SqueezeNet model was used to extract 128 x 11 x 11 dimensional stimulus features. 
 For each voxel, a Gaussian likelihood (mean and diagonal covariance) of voxel responses given stimulus pixels was estimated on the training set with ridge regression. 
 For each 0.7 s of the test set, the top three training frames resulting in the highest likelihoods of test V1, V2 and V3 responses in that 0.7 s given the training frame were averaged to obtain the reconstruction of the test frame in that 0.7 s.
 
