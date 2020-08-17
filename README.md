@@ -16,7 +16,7 @@ fixed RFSimage | reconstruction | ground truth
 
 <b>Main results -- LearnedRF (test set):</b>
 
-learned RFSImage | reconstruction | ground truth
+learned RFSimage | reconstruction | ground truth
 
 ![learnedRF_recons_of_all_frames_as_video_a](/additional_results/recons_of_all_frames_as_video_a.gif)
 
