@@ -3,6 +3,8 @@ Anonymous repository for the supplementary materials of the paper "Brain2Pix: Fu
 
 <b>Main results -- FixedRF (test set):</b>
 
+inputs | reconstruction | ground truth
+
 ![fixedRF_recons_of_all_frames_as_video_a](/additional_results/recons_fixed_of_all_frames_as_video_a.gif)
 
 
@@ -13,6 +15,8 @@ Anonymous repository for the supplementary materials of the paper "Brain2Pix: Fu
 
 
 <b>Main results -- LearnedRF (test set):</b>
+
+inputs | reconstruction | ground truth
 
 ![learnedRF_recons_of_all_frames_as_video_a](/additional_results/recons_of_all_frames_as_video_a.gif)
 
