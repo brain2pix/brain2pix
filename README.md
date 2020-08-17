@@ -1,15 +1,26 @@
 # Brain2Pix: Supplementary materials
 Anonymous repository for the supplementary materials of the paper "Brain2Pix: Fully convolutional naturalistic video reconstruction  from brain activity".
 
-<b>Main results (test set):</b>
+<b>Main results -- FixedRF (test set):</b>
 
-![recons_of_all_frames_as_video_a](/additional_results/recons_of_all_frames_as_video_a.gif)
-
-
-![recons_of_all_frames_as_video_b](/additional_results/recons_of_all_frames_as_video_b.gif)
+![fixedRF_recons_of_all_frames_as_video_a](/additional_results/recons_fixed_of_all_frames_as_video_a.gif)
 
 
-![recons_of_all_frames_as_video_c](/additional_results/recons_of_all_frames_as_video_c.gif)
+![fixedRF_recons_of_all_frames_as_video_b](/additional_results/recons_fixed_of_all_frames_as_video_b.gif)
+
+
+![fixedRF_recons_of_all_frames_as_video_c](/additional_results/recons_fixed_of_all_frames_as_video_c.gif)
+
+
+<b>Main results -- LearnedRF (test set):</b>
+
+![learnedRF_recons_of_all_frames_as_video_a](/additional_results/recons_of_all_frames_as_video_a.gif)
+
+
+![learned_RF_recons_of_all_frames_as_video_b](/additional_results/recons_of_all_frames_as_video_b.gif)
+
+
+![learned_RF_recons_of_all_frames_as_video_c](/additional_results/recons_of_all_frames_as_video_c.gif)
 
 
 <b>Additional results (test set):</b>
