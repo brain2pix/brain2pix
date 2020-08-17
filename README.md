@@ -38,19 +38,13 @@ More information on the code in the README inside the "code" folder.
     
 <b>Datasets:</b>
 
-Dr. Who:
-
-The Dr. Who dataset is publicly available. The first author of the dataset paper (Seeliger et. al., 2019) mentioned (on http://disq.us/p/23bj45d) that the link will be activated soon. For now it is available by contacting them. 
+<b> Dr. Who: </b> The Dr. Who dataset is publicly available. The first author of the dataset paper (Seeliger et. al., 2019) mentioned (on http://disq.us/p/23bj45d) that the link will be activated soon. For now it is available by contacting them. 
 
 
 
-vim2: 
-
-This dataset was taken from http://crcns.org/, originally published by Nishimoto et. al, 2011.
+<b> vim2: </b> This dataset was taken from http://crcns.org/, originally published by Nishimoto et. al, 2011.
 
 <b> References: </b>
-
-original publication about this data:
 
 Nishimoto, S., Vu, A. T., Naselaris, T., Benjamini, Y., Yu, B., & Gallant, J. L. (2011). Reconstructing visual experiences from brain activity evoked by natural movies. Current Biology, 21(19), 1641-1646.
 
