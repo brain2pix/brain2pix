@@ -52,8 +52,6 @@ test_iter = modules.make_iterator_preprocessed('testing', 'V1', batch_size=batch
 ```
 
 
-
-
 and then during the training loop:
 
 ``` python
@@ -92,3 +90,12 @@ The above loss function was used for the final brain2pix model. For the ablation
 
 - "no feature" experiment: We made use of the above defined loss function but <i>without</i> the`gen_loss_vgg` component.
 - "no adversarial" experiment": We made use of the same loss function defined above but <i>without</i> the `dis_loss` component. In this case, we only trained the generator.
+
+
+#### Baseline experiments:
+
+- dcgan_baseline: reimplemented the [Shen  et. al.](https://www.frontiersin.org/articles/10.3389/fncom.2019.00021/full) model on the Dr. Who dataset
+- 6 framed output: changed the last layer to output 6 channels.
+- split data: Experiment with different amount of training frames (20%, 40%, 60%, 100%)
+- FC layers: Replaced all convolution layers with fully connected layers
+
